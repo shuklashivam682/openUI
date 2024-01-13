@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="discrption" content="parallax one page" />
+    <meta name="keyword" content="agency, business, corporate, creative, freelancer, interior, joomla template, K2 Blog, minimal, modern, multipurpose, personal, portfolio, responsive, simple" />
+    <!--  Title -->
+    <title>OpenUI</title>
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <!-- custom styles (optional) -->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/plugins/tab.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="assets/css/bootstrap2.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"> -->
+</head>
+
+<body class="v-dark dsn-ajax">
+    <div class="site-header dsn-container section-padding dsn-load-animate panel">
+        <span class="pb-2 mr-40 d-none" id="menu-close-button-2">Close</span>
+        <div class="menu-icon d-flex align-items-baseline close-button">
+            <div class="main-menu-icon" onclick="showHide()" id="main-menu-icon">
+                <div class="icon-m" data-dsn="parallax" data-dsn-move="10" onclick="disableScroll()">
+                    <span class="menu-icon-line p-relative d-block icon-top"></span>
+                    <span class="menu-icon-line p-relative d-block icon-bottom"></span>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0 extend-container main-menu d-flex justify-content-between align-items-center">
+            <div class="menu-hide bg d-flex" id="hide-menu">
+                <div class="inner-header">
+                    <div class="navbar-logo">
+                        <a href="index.html" data-dsn="parallax">
+                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/icons/main-logo.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div class="show-menu ml-auto">
+                    <ul class="d-flex">
+                        <li>
+                            <a href="Project.html">Projects</a>
+                        </li>
+                        <li class="mr-40">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <span class="pb-2 mr-40 d-none" id="menu-close-button">Close</span>
+            <nav class="accent-menu dsn-container main-navigation p-absolute w-100 d-lg-flex align-items-baseline" id="main-navigation">
+                <div class="menu-cover-title" id="hide-logo">
+                    <img src="assets/icons/logo-icon.png" alt="">
+                </div>
+                <div class="menu-cover-title-mobile">
+                    <img src="assets/icons/menu-cover-logo.png" alt="">
+                </div>
+                <ul class="extend-container p-relative d-flex flex-column justify-content-center z-index-12 modal-menu">
+                    <li>
+                        <a href="index.html" class="user-no-selection">
+                            <span class="dsn-title-menu">Home</span>
+                            <!-- <span class="dsn-bg-arrow"></span> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Project.html" class="user-no-selection">
+                            <span class="dsn-title-menu">Projects</span>
+                            <!-- <span class="dsn-bg-arrow"></span> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Case-study.html" class="user-no-selection">
+                            <span class="dsn-title-menu">Case Study</span>
+                            <!-- <span class="dsn-bg-arrow"></span> -->
+                        </a>
+                    </li>
+                    <li class="active-menu">
+                        <a href="services.html" class="user-no-selection">
+                            <span class="dsn-title-menu"><span id="active-menu"></span> Services</span>
+                            <!-- <span class="dsn-bg-arrow"></span> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="About-us.html" class="user-no-selection">
+                            <span class="dsn-title-menu">About Us</span>
+                            <!-- <span class="dsn-bg-arrow"></span> -->
+                        </a>
+                    </li>
+                    <li class="position-relative">
+                        <a href="Blogs.html" class="user-no-selection">
+                            <span class="dsn-title-menu">Blogs</span>
+                            <!-- <span class="dsn-bg-arrow"></span> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="career.html" class="user-no-selection">
+                            <span class="dsn-title-menu">Careers</span>
+                            <!-- <span class="dsn-bg-arrow"></span> -->
+                        </a>
+                    </li>
+                </ul>
+                <div class="container-content p-absolute left-60 d-flex flex-column justify-content-center z-index-12">
+                    <div class="nav-info">
+                        <div class="nav-content">
+                            <span class="title-line">ADDRESS</span>
+                            <p>Vasvani Chamber 1st Floor 264-265 <br> Dr. Anne Besant Road, Worli Mumbai MH 400025 </p>
+                        </div>
+                        <div class="nav-content mt-45">
+                            <span class="title-line"> REACH US</span>
+                            <p class="links over-hidden">
+                                <a href="#" data-hover-text="+91 903-128-8224" class="link-hover">+91 903-128-8224</a>
+                            </p>
+                            <p class="links  over-hidden">
+                                <a href="#" data-hover-text="hello@openui.in" class="link-hover">hello@openui.in</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="nav-social nav-content">
+                        <div class="nav-social-inner p-relative">
+                            <p class="title-line"> FOLLOW US</p>
+                            <div class="social-media-icons d-flex">
+                                <div class="icon">
+                                    <img src="assets/icons/linked-in.png" alt="">
+                                </div>
+                                <div class="icon">
+                                    <img src="assets/icons/twitter.png" style="height: 11px;width:12px;">
+                                </div>
+                                <div class="icon">
+                                    <img src="assets/icons/insta.png" alt="">
+                                </div>
+                                <div class="icon">
+                                    <img src="assets/icons/dribble.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-contact-button">
+                        <p class="text-center mb-2 ">Got any cool Ideas?</p>
+                        <a href="contact.html" class="btn-6">Contact Us <span></span>
+                <i class="fa fa-angle-right ml-15 "></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- service-background -->
+    <img src="assets/img/service-background.png" alt="" class="service-background">
+    <!-- ========== End Menu ========== -->
+    <div class=" section-padding">
+        <!-- this is service title -->
+        <div class="service-hero">
+            <div class="services-hero-title slidetop">
+                <h1>Elevate Your Presence with Our Service</h1>
+                <p>Crafting innovative product that stand out.</p>
+            </div>
+        </div>
+    </div>
+    <!-- this is product design content -->
+    <div class="product-design">
+        <div class="section-padding">
+            <img src="assets/img/product-design-background.png" alt="" class="product-point-background">
+            <div class="service-item module">
+                <h1>Product Deisgn</h1>
+                <p>UI and UX Designing of your product and getting real experience through <br> prototype.</p>
+            </div>
+            <div class="product-points">
+                <div class="row module">
+                    <div class="col-lg-4">
+                        <div class="service-item mt-75">
+                            <h2>Point Number One</h2>
+                            <p>Our team understand your business, conduct market research and foresee business challenges to provide cost-effective solutions.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-item mt-75">
+                            <h2>Point Number Two</h2>
+                            <p>Our team understand your business, conduct market research and foresee business challenges to provide cost-effective solutions.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-item mt-75">
+                            <h2>Point Number Three</h2>
+                            <p>Our team understand your business, conduct market research and foresee business challenges to provide cost-effective solutions.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-item mt-75">
+                            <h2>Point Number Four</h2>
+                            <p>Our team understand your business, conduct market research and foresee business challenges to provide cost-effective solutions.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-item mt-75">
+                            <h2>Point Number Five</h2>
+                            <p>Our team understand your business, conduct market research and foresee business challenges to provide cost-effective solutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- this is frontend development code -->
+    <div class="product-design frontend-development  section-padding">
+        <div class="service-item module">
+            <h1>Front End Development</h1>
+            <p>UI and UX Designing of your product and getting real experience through <br> prototype.</p>
+        </div>
+        <div class="product-points">
+            <div class="row module">
+                <div class="col-lg-4">
+                    <div class="service-item mt-75">
+                        <h2>Point Number One</h2>
+                        <p>Our team understand your business, conduct market research and foresee business challenges to provide cost-effective solutions.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-item mt-75">
+                        <h2>Point Number Two</h2>
+                        <p>Our team understand your business, conduct market research and foresee business challenges to provide cost-effective solutions.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-item mt-75">
+                        <h2>Point Number Three</h2>
+                        <p>Our team understand your business, conduct market research and foresee business challenges to provide cost-effective solutions.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-item mt-75">
+                        <h2>Point Number Four</h2>
+                        <p>Our team understand your business, conduct market research and foresee business challenges to provide cost-effective solutions.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-item mt-75">
+                        <h2>Point Number Five</h2>
+                        <p>Our team understand your business, conduct market research and foresee business challenges to provide cost-effective solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- this is backend development -->
+    <div class="product-design backend-development section-padding">
+        <div class="service-item module">
+            <h1>Back End Development</h1>
+            <p>UI and UX Designing of your product and getting real experience through <br/> prototype.</p>
+        </div>
+        <div class="product-points">
+            <div class="module">
+                <div class="row ">
+                    <div class="col-lg-4">
+                        <div class="service-item mt-75">
+                            <h2>Point Number One</h2>
+                            <p>Our team understand your business, conduct market research and foresee business challenges to provide cost-effective solutions.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-item mt-75">
+                            <h2>Point Number Two</h2>
+                            <p>Our team understand your business, conduct market research and foresee business challenges to provide cost-effective solutions.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-item mt-75">
+                            <h2>Point Number Three</h2>
+                            <p>Our team understand your business, conduct market research and foresee business challenges to provide cost-effective solutions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-lg-4">
+                        <div class="service-item mt-75">
+                            <h2>Point Number Four</h2>
+                            <p>Our team understand your business, conduct market research and foresee business challenges to provide cost-effective solutions.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-item mt-75">
+                            <h2>Point Number Five</h2>
+                            <p>Our team understand your business, conduct market research and foresee business challenges to provide cost-effective solutions.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- our strategy and execution code -->
+    <div class="strategy container-fluid section-padding panel">
+        <div class="title mb-100 module">
+            <h1>Our Strategy &amp;</h1>
+            <h1>Execution</h1>
+        </div>
+        <div class="execution">
+            <div class="row module">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="p-3 box-card">
+                        <div class="count ">
+                            <img src="assets/icons/count-1.png " alt=" ">
+                        </div>
+                        <h2 class="mt-20 ">Define</h2>
+                        <p>We Start with Market ,User and Business Research</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="p-3 box-card">
+                        <div class="count ">
+                            <img src="assets/icons/count-2.png " alt=" ">
+                        </div>
+                        <h2 class="mt-20 ">Design</h2>
+                        <p>We Start with Market ,User and Business Research</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="p-3 box-card">
+                        <div class="count ">
+                            <img src="assets/icons/count-3.png " alt=" ">
+                        </div>
+                        <h2 class="mt-20 ">Develop</h2>
+                        <p>We Start with Market ,User and Business Research</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="p-3 box-card">
+                        <div class="count ">
+                            <img src="assets/icons/count-4.png " alt=" ">
+                        </div>
+                        <h2 class="mt-20 ">Launch</h2>
+                        <p>We Start with Market ,User and Business Research</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- the end of planning strategy code -->
+    <div class="contact-us-box container module">
+        <img src="assets/img/background-vector-2.png" alt="">
+        <div class="contact-us-box-inner">
+            <p>Got cool idea</p>
+            <h1>Let's collaborate and bring it to life!</h1>
+            <a href="contact.html" class="btn-6">
+                Contact Us <span></span>
+                <i class="fa fa-angle-right ml-15 "></i>
+            </a>
+        </div>
+    </div>
+    <div class="section-padding">
+        <div class="accordions">
+            <div class="heads module">
+                <h1>Usually<br>Asked Question?</h1>
+            </div>
+            <div class="accordion-section module">
+                <div class="Accordion_item">
+                    <div class="title_tab">
+                        <h3 class="title">
+                            Do you offer a dedicated designer for our project?
+                            <span class="icon"></span>
+                        </h3>
+                    </div>
+                    <div class="inner_content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut perferendis facere repudiandae quod sit expedita animi impedit voluptatum asperiores. Quibusdam asperiores molestiae ea quos esse quidem optio, exercitationem numquam ut, saepe similique soluta
+                            quam rerum unde necessitatibus perspiciatis magnam nihil! Alias similique maiores odio voluptas veritatis quidem id provident voluptatibus perspiciatis quas. Officiis minima consectetur quisquam culpa, illum
+                        </p>
+                    </div>
+                </div>
+                <div class="Accordion_item">
+                    <div class="title_tab">
+                        <h3 class="title">Do you offer a dedicated designer for our project?<span class="icon"></span></h3>
+                    </div>
+                    <div class="inner_content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut perferendis facere repudiandae quod sit expedita animi impedit voluptatum asperiores. Quibusdam asperiores molestiae ea quos esse quidem optio, exercitationem numquam ut, saepe similique soluta
+                            quam rerum unde necessitatibus perspiciatis magnam nihil! Alias similique maiores odio voluptas veritatis quidem id provident voluptatibus perspiciatis quas. Officiis minima consectetur quisquam culpa, illum
+                        </p>
+                    </div>
+                </div>
+                <div class="Accordion_item">
+                    <div class="title_tab">
+                        <h3 class="title">Do you offer a dedicated designer for our project?<span class="icon"></span></h3>
+                    </div>
+                    <div class="inner_content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut perferendis facere repudiandae quod sit expedita animi impedit voluptatum asperiores. Quibusdam asperiores molestiae ea quos esse quidem optio, exercitationem numquam ut, saepe similique soluta
+                            quam rerum unde necessitatibus perspiciatis magnam nihil! Alias similique maiores odio voluptas veritatis quidem id provident voluptatibus perspiciatis quas. Officiis minima consectetur quisquam culpa, illum
+                        </p>
+                    </div>
+                </div>
+                <div class="Accordion_item">
+                    <div class="title_tab">
+                        <h3 class="title">Do you offer a dedicated designer for our project?<span class="icon"></span></h3>
+                    </div>
+                    <div class="inner_content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut perferendis facere repudiandae quod sit expedita animi impedit voluptatum asperiores. Quibusdam asperiores molestiae ea quos esse quidem optio, exercitationem numquam ut, saepe similique soluta
+                            quam rerum unde necessitatibus perspiciatis magnam nihil! Alias similique maiores odio voluptas veritatis quidem id provident voluptatibus perspiciatis quas. Officiis minima consectetur quisquam culpa, illum
+                        </p>
+                    </div>
+                </div>
+                <div class="Accordion_item">
+                    <div class="title_tab">
+                        <h3 class="title">Do you offer a dedicated designer for our project?<span class="icon"></span></h3>
+                    </div>
+                    <div class="inner_content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut perferendis facere repudiandae quod sit expedita animi impedit voluptatum asperiores. Quibusdam asperiores molestiae ea quos esse quidem optio, exercitationem numquam ut, saepe similique soluta
+                            quam rerum unde necessitatibus perspiciatis magnam nihil! Alias similique maiores odio voluptas veritatis quidem id provident voluptatibus perspiciatis quas. Officiis minima consectetur quisquam culpa, illum
+                        </p>
+                    </div>
+                </div>
+                <div class="Accordion_item">
+                    <div class="title_tab">
+                        <h3 class="title">Do you offer a dedicated designer for our project?<span class="icon"></span></h3>
+                    </div>
+                    <div class="inner_content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut perferendis facere repudiandae quod sit expedita animi impedit voluptatum asperiores. Quibusdam asperiores molestiae ea quos esse quidem optio, exercitationem numquam ut, saepe similique soluta
+                            quam rerum unde necessitatibus perspiciatis magnam nihil! Alias similique maiores odio voluptas veritatis quidem id provident voluptatibus perspiciatis quas. Officiis minima consectetur quisquam culpa, illum
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- footer code is starting from here -->
+    <div class="footer container-fluid ">
+        <div class="section-padding pt-35 pb-50">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="assets//icons/main-logo.png " alt=" " class="footer-img">
+                    <p class="mt-25 address">Vasvani Chamber 1st Floor 264-265 Dr. Anne Besant Road, Worli Mumbai MH 400025 </p>
+                    <div class="privacy d-flex mt-95 ">
+                        <p class="copy-right">© OpenUI 2023-2024</p>
+                        <a href="privacy-policy.html " class="privacy">Privacy Policy</a>
+                        <a href="privacy-policy-terms.html " class="terms-of-use">Terms of Use</a>
+                    </div>
+                </div>
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                    <div class="mt-75">
+                        <div class="gmail">
+                            <span>Say</span>
+                            <h1>hello@openui.in</h1>
+                        </div>
+                        <div class="number mt-40">
+                            <span>Call</span>
+                            <h1>+91 9031288224</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="case-study-btn module">
+                <a href="Case-study.html" class="btn-6">
+                    <div class="title-content position-relative ">
+                        <p>Read Our</p>
+                        <h2>Case Study</h2>
+                    </div>
+                    <div class="icon ">
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- this is tab js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.js"></script>
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/tab.js"></script>
+    <script src="assets/js/dsn-grid.min.js"></script>
+    <script src="assets/js/accordion.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/slide.js "></script>
+    <!-- <script src="assets/js/jsanimation.js"></script> -->
+
+    <script>
+        window.onbeforeunload = function() {
+            window.scrollTo(0, 0);
+        }
+    </script>
+</body>
+
+</html>

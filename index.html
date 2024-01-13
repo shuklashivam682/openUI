@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="discrption" content="parallax one page" />
+    <meta name="keyword" content="agency, business, corporate, creative, freelancer, interior, joomla template, K2 Blog, minimal, modern, multipurpose, personal, portfolio, responsive, simple" />
+    <!--  Title -->
+    <title>OpenUI</title>
+    <!-- Font Google -->
+    <link rel="icon" href="assets/img/favicon.svg" type="image/x-icon" />
+    <!-- custom styles (optional) -->
+    <link rel="stylesheet" href="assets/css/project-slider.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
+    <link rel="stylesheet" href="assets/css/project-swiper.css">
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/card.css">
+    <link rel="stylesheet" href="assets/css/plugins/tab.css">
+    <link rel="stylesheet" href="assets/css/testimonials.css">
+    <link rel="canonical" href="https://codepen.io/alinaray/pen/YMPerz">
+
+    <!-- this is testimonials link -->
+    <style>
+        .overflow-hidden {
+            overflow: hidden
+        }
+        
+        .overflow-auto {
+            overflow: auto
+        }
+    </style>
+</head>
+
+<body class="v-dark dsn-ajax" id="body">
+    <!-- ========== Loading Page ========== -->
+    <div class="preloader-loader">
+        <div class="preloader">
+            <h1 class="title v-middle">
+                <img src="assets/icons/main-logo.png" alt="">
+            </h1>
+            <div class="loader-position">
+                <span class="loading-text">Loading ...</span>
+                <span class="percent">0 </span>
+                <span class="per-text">&#37;</span>
+            </div>
+        </div>
+    </div>
+    <!-- ========== End Loading Page ========== -->
+    <!-- ========== Menu ========== -->
+    <div class="site-header dsn-container section-padding dsn-load-animate panel">
+        <span class="pb-2 mr-40 d-none" id="menu-close-button-2">Close</span>
+        <div class="menu-icon d-flex align-items-baseline close-button">
+            <div class="main-menu-icon" onclick="showHide()" id="main-menu-icon">
+                <div class="icon-m" data-dsn="parallax" data-dsn-move="10" onclick="disableScroll()">
+                    <span class="menu-icon-line p-relative d-block icon-top"></span>
+                    <span class="menu-icon-line p-relative d-block icon-bottom"></span>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0 extend-container main-menu d-flex justify-content-between align-items-center">
+            <div class="menu-hide bg d-flex" id="hide-menu">
+                <div class="inner-header">
+                    <div class="navbar-logo">
+                        <a href="index.html" data-dsn="parallax">
+                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/icons/main-logo.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div class="show-menu ml-auto">
+                    <ul class="d-flex">
+                        <li>
+                            <a href="Project.html">Projects</a>
+                        </li>
+                        <li class="mr-40">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <span class="pb-2 mr-40 d-none" id="menu-close-button">Close</span>
+            <nav class="accent-menu dsn-container main-navigation p-absolute w-100 d-lg-flex align-items-baseline" id="main-navigation">
+                <div class="menu-cover-title" id="hide-logo">
+                    <img src="assets/icons/logo-icon.png" alt="">
+                </div>
+                <div class="menu-cover-title-mobile">
+                    <img src="assets/icons/menu-cover-logo.png" alt="">
+                </div>
+                <ul class="extend-container p-relative d-flex flex-column justify-content-center z-index-12 modal-menu">
+                    <li class="active-menu">
+                        <a href="index.html" class="user-no-selection text-light">
+                            <span class="dsn-title-menu"><span id="active-menu"></span> Home</span>
+                            <!-- <span class="dsn-bg-arrow"></span> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Project.html" class="user-no-selection">
+                            <span class="dsn-title-menu">Projects</span>
+                            <!-- <span class="dsn-bg-arrow"></span> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Case-study.html" class="user-no-selection">
+                            <span class="dsn-title-menu">Case Study</span>
+                            <!-- <span class="dsn-bg-arrow"></span> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="services.html" class="user-no-selection">
+                            <span class="dsn-title-menu">Services</span>
+                            <!-- <span class="dsn-bg-arrow"></span> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="About-us.html" class="user-no-selection">
+                            <span class="dsn-title-menu">About Us</span>
+                            <!-- <span class="dsn-bg-arrow"></span> -->
+                        </a>
+                    </li>
+                    <li class="position-relative">
+                        <a href="Blogs.html" class="user-no-selection">
+                            <span class="dsn-title-menu">Blogs</span>
+                            <!-- <span class="dsn-bg-arrow"></span> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="career.html" class="user-no-selection">
+                            <span class="dsn-title-menu">Careers</span>
+                            <!-- <span class="dsn-bg-arrow"></span> -->
+                        </a>
+                    </li>
+                </ul>
+                <div class="container-content p-absolute d-flex flex-column justify-content-center z-index-12">
+                    <div class="nav-info">
+                        <div class="nav-content">
+                            <span class="title-line">ADDRESS</span>
+                            <p>Vasvani Chamber 1st Floor 264-265 <br> Dr. Anne Besant Road, Worli Mumbai MH 400025 </p>
+                        </div>
+                        <div class="nav-content mt-45">
+                            <span class="title-line"> REACH US</span>
+                            <p class="links over-hidden">
+                                <a href="#" data-hover-text="+91 903-128-8224" class="link-hover">+91 903-128-8224</a>
+                            </p>
+                            <p class="links  over-hidden">
+                                <a href="#" data-hover-text="hello@openui.in" class="link-hover">hello@openui.in</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="nav-social nav-content">
+                        <div class="nav-social-inner p-relative">
+                            <p class="title-line"> FOLLOW US</p>
+                            <div class="social-media-icons d-flex">
+                                <div class="icon">
+                                    <img src="assets/icons/linked-in.png" alt="">
+                                </div>
+                                <div class="icon">
+                                    <img src="assets/icons/twitter.png" style="height: 11px;width:12px;">
+                                </div>
+                                <div class="icon">
+                                    <img src="assets/icons/insta.png" alt="">
+                                </div>
+                                <div class="icon">
+                                    <img src="assets/icons/dribble.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-contact-button">
+                        <p class="text-center mb-2 ">Got any cool Ideas?</p>
+                        <a href="contact.html" class="btn-6">Contact Us <span></span>
+                        <i class="fa fa-angle-right ml-15 "></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- ========== End Menu ========== -->
+    <div class="hero-background">
+        <div class="mobile-background d-lg-none">
+            <img src="assets/img/mobile-hero-img.png" alt="">
+        </div>
+        <div class="container hero-section nav-center v-dark-head panel">
+            <div class="content">
+                <h1 class="user-no-selection fade-top-home">
+                    <a href="#" class="effect-ajax drop-in-2">
+                        <h1 class="design">
+                            </span>Ordinary?</span>
+                        </h1>
+                        <h1> Not in our vocabulary </h1>
+                    </a>
+                    <p>Expert in Design & Development to tackle your business hurdles with solutions that are as unique as you are.</p>
+                    <div class="slide-content-button">
+                        <a href="contact.html" class="btn-6" id="button"> 
+                            Let's Talk <span></span>
+                            <i class="fa fa-angle-right ml-15"></i>
+                        </a>
+                    </div>
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!-- ========== Scroll Right Page To Top Page ========== -->
+    <div class="logos">
+        <div class="logo_items">
+            <img src="assets/icons/logo-1.png">
+            <img src="assets/icons/logo-2.png">
+            <img src="assets/icons/logo-3.png">
+            <img src="assets/icons/logo-4.png">
+            <img src="assets/icons/logo-5.png">
+            <img src="assets/icons/logo-6.png">
+        </div>
+        <div class="logo_items" id="logo_items">
+            <img src="assets/icons/logo-1.png">
+            <img src="assets/icons/logo-2.png">
+            <img src="assets/icons/logo-3.png">
+            <img src="assets/icons/logo-4.png">
+            <img src="assets/icons/logo-5.png">
+            <img src="assets/icons/logo-6.png">
+        </div>
+    </div>
+    <!-- this is project card section -->
+    <div class="container-fluid section-padding padding-none">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="fixed-text module">
+                    <div>
+                        <div class="fixed-text-title">
+                            <h1>Our <br> Stellar Hits!</h1>
+                            <p>Get the 411 on our projects—where creativity and code team up to drop jaws!</p>
+                        </div>
+                        <div class="swiper__slider-counter">
+                            <div data-js-swiper-slider-counter="" class="counter swiper-pagination-custom"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6">
+                <div data-js-swiper-slider="" class="swiper__slider-wrapper swiper-container swiper-container-vertical module">
+                    <div class="swiper-wrapper swiper__slider" style="transform: translate3d(0px, -202px, 0px); transition-duration: 0ms;">
+                        <div class="swiper__slider-item swiper-slide">
+                            <div class="slide-inner" id="slide-inner-1">
+                                <div class="slide-content">
+                                    <div class="slide-title">
+                                        <h2>Vahan</h2>
+                                        <p>Helping vendors hiring blue collar jobs.</p>
+                                    </div>
+                                    <div class="slide-brand">
+                                        <div>
+                                            <h2>$8M</h2>
+                                            <span>Funding</span>
+                                        </div>
+                                        <img src="assets/icons/combinator-logo.png" alt="">
+                                    </div>
+                                </div>
+                                <img src="assets/img/project/vahan.png" alt="Degordian" class="vahan">
+                            </div>
+                        </div>
+                        <div class="swiper__slider-item swiper-slide">
+                            <div class="slide-inner" id="slide-inner-2">
+                                <div class="slide-content">
+                                    <div class="slide-title">
+                                        <h2>VitalsMatter</h2>
+                                        <p>Continuously monitors and analyzes employee's key vitals via medical-grade wearable devices.</p>
+                                    </div>
+                                </div>
+                                <img src="assets/img/project/Vitalsmatter.png" alt="Degordian">
+                            </div>
+                        </div>
+                        <div class="swiper__slider-item swiper-slide">
+                            <div class="slide-inner" id="slide-inner-3">
+                                <div class="slide-content">
+                                    <div class="slide-title">
+                                        <h2>KonfHub</h2>
+                                        <p>One-stop ticketing <br> &amp; event management platform.</p>
+                                    </div>
+                                    <div class="slide-brand">
+                                        <div>
+                                            <h2>$8M</h2>
+                                            <span>Funding</span>
+                                        </div>
+                                        <img src="assets/icons/combinator-logo.png" alt="">
+                                    </div>
+                                </div>
+                                <img src="assets/img/project/confhub.png" alt="Degordian" class="confub">
+                            </div>
+                        </div>
+                        <div class="swiper__slider-item swiper-slide">
+                            <div class="slide-inner" id="slide-inner-2">
+                                <img src="assets/img/project/Vitalsmatter.png" alt="Degordian">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end card sectiom -->
+    <div class="big-title container-fluid">
+        <img src="assets/img/big-title.png" alt="" class="big-title-background">
+        <div class="home_create">
+            <div class="title-content position-relative home_titles">
+                <h1 class="title">
+                    <div>Visualize</div>
+                    <div>Create</div>
+                    <div>Launch</div>
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!-- servics section start from here -->
+    <div class="services container-fluid section-padding panel">
+        <div class="titles text-center d-flex align-items-center justify-content-center">
+            <div id="service-title">
+                <span>Our</span>
+                <h1 class="services-head">Slick Service Suite</h1>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card" data-index="0">
+                <div class="card__inner" id="card-inner-1">
+                    <div class="card__image-container">
+                        <div class="number ">
+                            <img src="assets/icons/1.png " alt=" ">
+                        </div>
+                        <div>
+                            <h1>UI UX Design</h1>
+                            <h1>&amp; Prototype</h1>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <p class="card__description"> We believe that great design is the foundation of a successful digital presence. </p>
+                        <ul class="pl-25">
+                            <li>Research</li>
+                            <li>User Journey</li>
+                            <li>Wireframe</li>
+                            <li>Prototype &amp; Testing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card" data-index="0">
+                <div class="card__inner" id="card-inner-2">
+                    <div class="card__image-container">
+                        <div class="number ">
+                            <img src="assets/icons/2.png " alt=" ">
+                        </div>
+                        <div>
+                            <h1>Frontend</h1>
+                            <h1>Development</h1>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <p class="card__description"> We believe that great design is the foundation of a successful digital presence. </p>
+                        <ul class="pl-25">
+                            <li>Research</li>
+                            <li>User Journey</li>
+                            <li>Wireframe</li>
+                            <li>Prototype &amp; Testing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card" data-index="0">
+                <div class="card__inner" id="card-inner-3">
+                    <div class="card__image-container">
+                        <div class="number ">
+                            <img src="assets/icons/3.png " alt=" ">
+                        </div>
+                        <div>
+                            <h1>Backend</h1>
+                            <h1>DevOps</h1>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <p class="card__description"> We believe that great design is the foundation of a successful digital presence. </p>
+                        <ul class="pl-25">
+                            <li>Research</li>
+                            <li>User Journey</li>
+                            <li>Wireframe</li>
+                            <li>Prototype &amp; Testing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- testimonials code strat from here -->
+    <!-- this is tab code here -->
+    <div class="container-fluid section-padding">
+        <div class="tab">
+            <div class="tab-head module">
+                <h1>How We <br> make it Happen?</h1>
+            </div>
+            <div class="tab-content module">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="tab-head d-flex align-items-center h-100">
+                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <button class="nav-link mb-40 active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                Sprint Planning &amp; Strategy <p>UI and UX Designing of your product and getting real experience <br> through prototype.</p></button>
+
+                                <button class="nav-link mb-40" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Designing the Product <p>UI and UX Designing of your product and getting real experience <br> through prototype.</p></button>
+
+                                <button class="nav-link mb-40" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Creating It<p>UI and UX Designing of your product and getting real experience <br> through prototype.</p></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 order-md-2">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                <img src="assets/icons/sprint.gif" alt="">
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                <img src="assets/icons/designing.gif" alt="">
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                <img src="assets/icons/creating.gif" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid section-padding">
+        <div class="testimonials-title module">
+            <h1>High Five Moments</h1>
+        </div>
+        <section class="slider module">
+            <div class="slider__flex">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="slider__col">
+                            <!-- <div class="slider__prev">Prev</div> -->
+                            <!-- Кнопка для переключения на предыдущий слайд -->
+                            <div class="slider__thumbs">
+                                <div class="swiper-container">
+                                    <!-- Слайдер с превью -->
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="slider__image d-lg-flex">
+                                                <img src="assets/img/testimonials/img-1.png" alt="" />
+                                                <div class="name">
+                                                    <h3>Hari Kiran</h3>
+                                                    <p>Co founder, cofHub</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="slider__image d-lg-flex">
+                                                <img src="assets/img/testimonials/img-3.png" alt="" />
+                                                <div class="name">
+                                                    <h3>Hari Kiran</h3>
+                                                    <p>Co founder, cofHub</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="slider__image d-lg-flex">
+                                                <div class="first_letter_name">
+                                                    <span>R</span>
+                                                </div>
+                                                <div class="name">
+                                                    <h3>Hari Kiran</h3>
+                                                    <p>Co founder, cofHub</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="swiper-slide">
+                                            <div class="slider__image d-flex">
+                                                <img src="assets/img/testimonials/img-1.png" alt="" />
+                                                <div class="name">
+                                                    <h3>Hari Kiran</h3>
+                                                    <p>Co founder, cofHub</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="slider__image d-flex">
+                                                <img src="assets/img/testimonials/img-3.png" alt="" />
+                                                <div class="name">
+                                                    <h3>Hari Kiran</h3>
+                                                    <p>Co founder, cofHub</p>
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="slider__next">Next</div> -->
+                            <!-- Кнопка для переключения на следующий слайд -->
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="slider__images">
+                            <div class="swiper-container">
+                                <div class="quote"><img src="assets/icons/quote.png" alt=""></div>
+                                <!-- Слайдер с изображениями -->
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="slider__image">
+                                            <p class="quote-space">We were blown away with the final product and the minimal amount of work it took on our end. This has helped further validate our position in the market—the content we're producing has a direct, positive impact
+                                                on our demand generation efforts and reputation in our space...1</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slider__image">
+                                            <!-- <div class="quote"><img src="assets/icons/quote.png" alt=""></div> -->
+                                            <p class="quote-space">We were blown away with the final product and the minimal amount of work it took on our end. This has helped further validate our position in the market—the content we're producing has a direct, positive impact
+                                                on our demand generation efforts and reputation in our space...2</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slider__image">
+                                            <!-- <div class="quote"><img src="assets/icons/quote.png" alt=""></div> -->
+                                            <p class="quote-space">We were blown away with the final product and the minimal amount of work it took on our end. This has helped further validate our position in the market—the content we're producing has a direct, positive impact
+                                                on our demand generation efforts and reputation in our space...3</p>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="swiper-slide">
+                                        <div class="slider__image">
+                                            <div class="quote"><img src="assets/icons/quote.png" alt=""></div>
+                                            <p>We were blown away with the final product and the minimal amount of work it took on our end. This has helped further validate our position in the market—the content we're producing has a direct, positive impact
+                                                on our demand generation efforts and reputation in our space...</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slider__image">
+                                            <div class="quote"><img src="assets/icons/quote.png" alt=""></div>
+                                            <p>We were blown away with the final product and the minimal amount of work it took on our end. This has helped further validate our position in the market—the content we're producing has a direct, positive impact
+                                                on our demand generation efforts and reputation in our space...</p>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- strategy and execution code -->
+    <div class="strategy container-fluid section-padding panel">
+        <div class="title mb-100 module">
+            <h1>Our Strategy &amp;</h1>
+            <h1>Execution</h1>
+        </div>
+        <div class="execution">
+            <div class="row module">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="p-3 box-card">
+                        <div class="count ">
+                            <img src="assets/icons/count-1.png " alt=" ">
+                        </div>
+                        <h2 class="mt-20 ">Define</h2>
+                        <p>We Start with Market ,User and Business Research</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="p-3 box-card">
+                        <div class="count ">
+                            <img src="assets/icons/count-2.png " alt=" ">
+                        </div>
+                        <h2 class="mt-20 ">Design</h2>
+                        <p>We Start with Market ,User and Business Research</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="p-3 box-card">
+                        <div class="count ">
+                            <img src="assets/icons/count-3.png " alt=" ">
+                        </div>
+                        <h2 class="mt-20 ">Develop</h2>
+                        <p>We Start with Market ,User and Business Research</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="p-3 box-card">
+                        <div class="count ">
+                            <img src="assets/icons/count-4.png " alt=" ">
+                        </div>
+                        <h2 class="mt-20 ">Launch</h2>
+                        <p>We Start with Market ,User and Business Research</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact us box code -->
+    <div class="contact-us-box container module">
+        <img src="assets/img/background-vector-2.png" alt="">
+        <div class="contact-us-box-inner">
+            <p>Got cool idea</p>
+            <h1>Let's collaborate and bring it to life!</h1>
+            <a href=" contact.html " class="btn-6"> Contact Us <span></span>
+          <i class="fa fa-angle-right ml-15 "></i>
+        </a>
+        </div>
+    </div>
+    <!-- footer code is starting from here -->
+    <div class="footer pb-50 container-fluid ">
+        <div class="container-fluid section-padding pt-35 ">
+            <div class="row ">
+                <div class="col-lg-4 ">
+                    <a href="index.html"><img src="assets/icons/main-logo.png " alt=" " class="footer-img"></a>
+                    <p class="mt-25 address">Vasvani Chamber 1st Floor 264-265 Dr. Anne Besant Road, Worli Mumbai MH 400025 </p>
+                    <div class="privacy d-flex mt-95 ">
+                        <p class="copy-right">© OpenUI 2023-2024</p>
+                        <a href="privacy-policy.html " class="privacy">Privacy Policy</a>
+                        <a href="privacy-policy-terms.html " class="terms-of-use">Terms of Use</a>
+                    </div>
+                </div>
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                    <div class="mt-75">
+                        <div class="gmail">
+                            <span>Say</span>
+                            <h1>hello@openui.in</h1>
+                        </div>
+                        <div class="number mt-40">
+                            <span>Call</span>
+                            <h1>+91 9031288224</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="case-study-btn module">
+                <a href="Case-study.html" class="btn-6">
+                    <div class="title-content position-relative ">
+                        <p>Read Our</p>
+                        <h2>Case Study</h2>
+                    </div>
+                    <div class="icon ">
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- this is javascript -->
+    <!-- this is testimonials link -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- this is tab js -->
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.js"></script>
+    <!-- this is tab links -->
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+    <script src="https://unpkg.com/aatjs@0.0.3/dist/aat.min.js"></script>
+    <script src="assets/js/cardjs.js"></script>
+    <script src="assets/js/project-slider.js"></script>
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/slide.js "></script>
+    <!-- <script src="assets/js/pixi.js"></script> -->
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/dsn-grid.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/testimonials.js"></script>
+    <script src="assets/js/tab.js"></script>
+    <script src="assets/js/stacking-card.js "></script>
+    <!-- <script src="assets/js/jsanimation.js"></script> -->
+    <script>
+        window.onbeforeunload = function() {
+            window.scrollTo(0, 0);
+        }
+
+        // this is hide menu code
+        function showHide() {
+            var x = document.getElementById("hide-menu");
+            if (x.style.display === "none" && x.style.overflow === "hidden") {
+                setTimeout(() => {
+                    x.style.display = "flex";
+                    $('body').toggleClass('overflow-auto');
+                }, 1050);
+            } else {
+                x.style.display = "none";
+                $('body').toggleClass('overflow-hidden');
+            }
+        }
+    </script>
+</body>
+
+</html>
